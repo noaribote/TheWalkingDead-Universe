@@ -11,7 +11,7 @@
 
 # Compresseur .webp XXXp -> .webp 320p
 
-## Installez FFmpeg : 
+### Installez FFmpeg : 
 1) Executez ``winget install "FFmpeg (Essentials Build)"`` sur Windows
 2) Relancez vos terminaux PowerShell
 2) Vérifier l'installation avec la commande ``ffmpeg -version``
