@@ -14,8 +14,7 @@
     transition: opacity 0.3s;
 }
 
-.OTHERSsections:hover .controls,
-.controls:focus-within {
+.footer-video-div:hover .controls {
     opacity: 1;
     pointer-events: auto;
 }
@@ -32,6 +31,22 @@
 .volume-control {
     width: 100px;
     margin: 0 10px;
+    background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.volume-control::-moz-range-progress {
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+}
+
+.volume-control::-moz-range-track {
+    height: 5px;
+    cursor: pointer;
+    background: rgb(100, 100, 100);
+    border-radius: 5px;
 }
 
 .volume-control::-webkit-slider-runnable-track {
@@ -50,14 +65,6 @@
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -5px;
-}
-
-.volume-control::-moz-range-track {
-    width: 100%;
-    height: 5px;
-    cursor: pointer;
-    background: rgb(100, 100, 100);
-    border-radius: 5px;
 }
 
 .volume-control::-moz-range-thumb {

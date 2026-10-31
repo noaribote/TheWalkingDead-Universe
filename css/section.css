@@ -176,6 +176,12 @@
     text-overflow: ellipsis;
 }
 
+@media screen and (max-height: 835px) {
+    .description-title, .description {
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    }
+}
+
 .footer-amc {
     position: absolute;
     bottom: 10px;
