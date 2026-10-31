@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+::selection {
+    background-color: grey;
+}
+
+.FlexCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FlexCenter2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    max-width: 190px;
+    max-height: 60px;
+    transform: scale(0.6);
+    position: fixed;
+    bottom: 20px; right: 20px;
+    z-index: 999 !important;
+}
+
+@media screen and (max-width:586px) {
+    iframe {
+        bottom: 0; right: 0;
+        transform: scale(0.4);
+    }
+}

@@ -1,0 +1,369 @@
+@import url('responsiveDirectCADRE.css');
+
+.PARAM-TWDetc {
+    top: -200px;
+    left: 0;
+    height: 700px;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(to bottom left, transparent, black);
+    background-repeat: no-repeat;
+    opacity: 0;
+    background-size: cover;
+    border-radius: 0 0 40px 40px;
+    animation: navbarbackgroundEVENT 1.5s forwards;
+}
+.OTHERSsections {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    overflow: hidden;
+    z-index: 10;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.TheWalkingDead-TWD {
+    display: block;
+    background: linear-gradient(to right, rgb(35, 53, 52), rgb(43, 63, 55) 80%);
+}.TWD {
+    background-image: url('../img/series-bg/TWD.webp');
+    box-shadow: 0 0 20px rgba(0, 31, 30, 0.721);
+}
+
+
+.TheWalkingDead-DC {
+    display: none;
+    background: linear-gradient(to bottom, rgb(8, 180, 253), rgb(8, 18, 28) 80%);
+} .TWDDC {
+    background-image: url('../img/series-bg/TWDDC.webp');
+    box-shadow: 0 0 20px rgba(0, 110, 255, 0.867);
+}
+
+
+.TheWalkingDead-DD {
+    display: none;
+    background: linear-gradient(to bottom, rgb(253, 176, 8), rgb(37, 28, 7) 80%);
+} .TWDDD {
+    background-image: url('../img/series-bg/TWDDD.webp');
+    box-shadow: 0 0 20px rgba(255, 157, 0, 0.867);
+}
+
+
+.TheWalkingDead-TheOnesWhoLive {
+    display: none;
+    background: linear-gradient(to bottom, rgb(237, 3, 3), rgb(25, 8, 8) 80%);
+} .TWDTOWL {
+    background-image: url('../img/series-bg/TWDTOWL.webp');
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.36);
+}
+
+
+.TheWalkingDead-FTWD {
+    display: none;
+    background: linear-gradient(to right, rgb(47, 10, 10), rgb(71, 57, 41) 80%);
+}.FTWD {
+    background-image: url("../img/series-bg/FTWD.webp");
+    box-shadow: 0 0 20px rgba(217, 89, 10, 0.545);
+    background-position-y: center;
+} .FTWD img {
+    width: 400px;
+    height: auto;
+}
+
+
+.TheWalkingDead-FTWDITW {
+    display: none;
+    background: linear-gradient(to right, rgb(59, 79, 92), rgb(23, 58, 68) 80%);
+}.FTWDITW {
+    background-image: url("../img/series-bg/ftwditw.webp");
+    box-shadow: 0 0 20px rgb(6, 47, 54);
+    background-position-y: center;
+} .FTWDITW img {
+    width: 400px;
+    height: auto;
+}
+
+
+.TheWalkingDead-WB {
+    display: none;
+    background: linear-gradient(to left, black, rgb(95, 33, 83), black);
+} .TWDWB {
+    background-position-y: center;
+    background-image: url('../img/series-bg/TWDWB.webp');
+    box-shadow: 0 0 20px rgba(64, 255, 0, 0.214);
+}
+
+
+.TheWalkingDead-TOTWD {
+    display: none;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(51, 26, 2) 80%);
+} .TOTWD {
+    background-position-y: center;
+    background-image: url('../img/series-bg/TOTWD.webp');
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.214);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes navbarbackgroundEVENT {
+    0%{top: -200px; opacity: 0;}
+    100%{top: 0; opacity: 1;}
+}
+
+.navbar-img-logo {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    width: 500px;
+    height: auto;
+    opacity: 90%;
+    animation: logoTWDNavbAr 2s 1s forwards;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+@keyframes logoTWDNavbAr {
+    0%{
+        bottom: 0;
+        left: -40px;
+        opacity: 0;
+    }
+    100%{
+        bottom: 0;
+        left: 40px;
+        opacity: 1;
+    }
+}
+
+.description-div {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    width: 30%;
+}
+
+.description-title {
+    color: white;
+    font-size: 19px;
+}
+
+.description {
+    color: white;
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.footer-amc {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 15;
+}
+.footer-amc a {
+    text-decoration: none;
+    display: none;
+}
+.footer-amc a img {
+    transition: 0.2s;
+    height: auto;
+    width: 65px;
+    pointer-events: visible;
+    cursor: pointer;
+    user-select: none;
+    transform: scale(0.9);
+}
+.footer-amc a:hover img {
+    transition: 0.2s;
+    transform: scale(1);
+}
+.footer-video-div {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    margin: 0;
+    padding: 0;
+}
+.footer-video {
+    margin-right: 10px;
+    height: 175px;
+    width: auto;
+    user-select: none;
+}
+
+.th0 {
+    opacity: 0;
+    animation: video0 1s 1.3s forwards;
+}
+.th1 {
+    opacity: 0;
+    animation: video1 1s 1.7s forwards;
+}
+.th2 {
+    opacity: 0;
+    animation: video2 1s 2s forwards;
+}
+@keyframes video0 {
+    0% {opacity: 0;transform: translateX(-200px);}
+    100% {opacity: 1;transform: translateX(0);}
+}
+@keyframes video1 {
+    0% {opacity: 0;transform: translateX(-200px);}
+    100% {opacity: 50%;transform: translateX(0);}
+}
+@keyframes video2 {
+    0% {opacity: 0;transform: translateX(-200px);}
+    100% {opacity: 20%;transform: translateX(0);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1496px) {
+    .footer-video-div {
+        left: 45%;
+    }
+    .footer-video {
+        margin-right: 10px;
+        height: 125px;
+    }
+}
+
+@media screen and (max-width:1285px) {
+    .footer-video-div {
+        left: 35%;
+    }
+}
+
+@media screen and (max-width:1177px) {
+    .footer-video-div {
+        left: 45%;
+    }
+    .footer-video {
+        height: 105px;
+    }
+    .description-div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:1142px) {
+    .description-div {
+        left: 20px;
+    }
+}
+
+@media screen and (max-width:1090px) {
+    .footer-video-div {
+        display: none;
+    }
+    .description-div {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1018px) {
+    .TWDTOWL {
+        background-position-x: right;
+    }
+}
+
+@media screen and (max-width:959px) {
+    .navbar-img-logo {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width:925px) {
+    .navbar-img-logo {
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width:877px) {
+    .PARAM-TWDetc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-img-logo {
+        position: relative;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width:586px) {
+    .description-div {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .description-div {
+        width: 98%;
+        left: 5px;
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width:358px) {
+    .description-div {
+        transform: scale(0.7);
+        width: 120%;
+        left: -55px;
+    }
+}
+
+@media screen and (max-width:341px) {
+    .description-div {
+        left: -35px;
+    }
+    .navbar-img-logo {
+        position: relative;
+        margin-right: 20%;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:295px) {
+    .description-div {
+        left: -45px;
+        width: 126%;
+    }
+}

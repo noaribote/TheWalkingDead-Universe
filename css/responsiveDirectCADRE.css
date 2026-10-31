@@ -1,0 +1,16 @@
+@media screen and (max-width: 854px) {
+    .TWDDD {
+        background-position: -350px !important;
+    }
+}
+@media screen and (max-width: 622px) {
+    .TWD {
+        background-position: -350px !important;
+    }
+    .TWDDC {
+        background-position: -180px !important;
+    }
+    .TOTWD {
+        background-position: -200px !important;
+    }
+}
